@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.heading {
+    height: 7vw;
+    background-color: black;
+    border: 1px solid #fff;
+    border-radius: 20px;
+}
+
+h1 {
+    text-size-adjust: 80%;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+
+h1 :hover {
+    background-color: white;
+    color: black;
+}
+
+.select {
+    padding: 8px 12px;
+    color: #fff;
+    background-color: black;
+    border: 1px solid #dddddd;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+ul {
+    float: left;
+    list-style-type: none;
+    margin-top: 5px;
+}
+
+ul li {
+    display: inline-flex;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 5px 20px;
+    border: 1px solid #fff;
+    transition: 0.6s ease;
+}
+
+ul li a:hover {
+    background-color: black;
+    color: white;
+}
+
+ul li a.active {
+    background-color: black;
+    color: white;
+}
+
+.signin {
+    float: right;
+    display: inline-flex;
+    text-decoration: none;
+    color: black;
+    padding: 5px 20px;
+    border: 1px solid #fff;
+    transition: 0.6s ease;
+}
+
+.signin a:hover {
+    background-color: black;
+    color: white;
+}
+
+section {
+    width: 70%;
+    float: left;
+    height: 400px;
+    background: white;
+}
+
+.right {
+    width: 30%;
+    float: left;
+    height: 400px;
+    background: white;
+}
+
+.image {
+    text-align: center;
+}
+
+footer {
+    height: 7vw;
+    background: black;
+    border: 1px solid #fff;
+    border-radius: 20px;
+}
+
+h2 {
+    text-size-adjust: 80%;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+
+.ending {
+    height: 7vw;
+    background-color: black;
+    border: 1px solid #fff;
+}
